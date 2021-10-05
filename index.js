@@ -2,7 +2,7 @@
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
-let resetEl = document.getElementById("Reset-el")
+
 
 console.log(saveEl)
 
@@ -24,4 +24,3 @@ function reset() {
     window.location.reload() 
 }
 
-console.log("button click")

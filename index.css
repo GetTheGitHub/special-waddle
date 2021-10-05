@@ -77,12 +77,25 @@ button {
     box-shadow: gray 2px 2px;
 }
 
+#reset-btn {
+    background: #2C92F1;
+    box-shadow: gray 2px 2px;
+}
+
 #increment-btn:hover,
 #increment-btn:focus {
-   background: #c65d87;  
+   background: #c65d87;
+   color: black;
 }
 
 #save-btn:hover,
 #save-btn:focus {
     background: #8BB96F;
+    color: 3a3a3b;
+}
+
+#reset-btn:hover,
+#reset-btn:focus {
+    background: #81BBF1;
+    color: 3a3a3b;
 }

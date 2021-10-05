@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>counter app</title>
+    </head>
+    <body>
+        <header class="hero">
+            <h1>Bug Counter:</h1>
+            <h2 id="count-el">0</h2>
+            <span class="dot-0"></span>
+            <span class="dot-1"></span>
+            
+        </header>
+        
+        <section class="container">
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+            <p id="save-el">Previous entries: </p>
+            
+            <span class="dot"></span>
+            
+        </section>
+            
+        <span class="dot-2"></span>
+
+       <footer>
+           <h4>👉🏻 No bugs where harmed!</h4>
+       </footer>
+           
+        <script src="index.js"></script>
+    </body>
+</html>
+
+body {
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+   
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 50px 100px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    
+    
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+
+    
+}
+
+.hero {
+    padding: 100px 100px;
+    
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    border-radius: 4%;
+    box-shadow: 0 0 0 20px rgb(44, 146, 241);
+  
+   
+}
+
+.container {
+    
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+
+    max-width: 600px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 5% 5%;
+    box-shadow: 0 0 0 15px #333;  
+}
+
+/* .dot {
+    height: 70px;
+    width: 70px;
+    background-color: purple;
+    border-radius: 50%;
+    display: inline-block;
+    }
+.dot-0 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(190, 182, 190);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 190px;
+    z-index: -1; 
+}
+.dot-1 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(124, 109, 124);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 180px;
+    z-index: -2;
+    
+}  
+.dot-2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(124, 109, 124);
+    border-radius: 50%;
+    display: inline-block;
+    
+    top: 140px;
+    z-index: 1;
+} */
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
