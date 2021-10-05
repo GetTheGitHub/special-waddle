@@ -1,1 +1,0 @@
-let resetEl = document.getElementById("Reset-el")
