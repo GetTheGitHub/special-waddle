@@ -1,22 +1,15 @@
 body {
-    
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
-   
-    
 }
 
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin: 50px 100px;
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
     margin-bottom: 20px;
-    margin-right: 10px;
-    
-    
 }
 
 h2 {
@@ -26,100 +19,70 @@ h2 {
     width: 100px;
     margin: 0 auto;
     margin-bottom: 25px;
+}
 
+.container {
     
 }
 
-.hero {
+.monitor {
+    text-align: center;
     padding: 100px 100px;
-    
-    width: 300px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
     margin-top: 50px;
     border-radius: 4%;
     box-shadow: 0 0 0 20px rgb(44, 146, 241);
-  
-   
 }
 
-.container {
+.keyboard {
     
     padding-top: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 150px;
-
-    max-width: 600px;
-    width: 500px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 40px;
+    max-width: 500px;
+    background-color: #ACADAE;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    border-radius: 5% 5%;
-    box-shadow: 0 0 0 15px #333;  
+    margin-top: 100px;
+    border-radius: 12% 12%;
+    box-shadow: 0 0 0 10px rgb(103, 100, 100);  
 }
-
-/* .dot {
-    height: 70px;
-    width: 70px;
-    background-color: purple;
-    border-radius: 50%;
-    display: inline-block;
-    }
-
-
-.dot-0 {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(190, 182, 190);
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    right: 190px;
-    z-index: -1; 
-}
-
-.dot-1 {
-    height: 200px;
-    width: 200px;
-    background-color: rgb(124, 109, 124);
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    right: 180px;
-    z-index: -2;
-    
-}  
-
-.dot-2 {
-    height: 100px;
-    width: 100px;
-    background-color: rgb(124, 109, 124);
-    border-radius: 50%;
-    display: inline-block;
-    
-    top: 140px;
-    z-index: 1;
-} */
 
 button {
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 125px;
+    margin-inline: 15px;
+    margin-block-start: 15px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 30px;
+    display: inline-block;
+
     
 }
-
-#increment-btn {
-    background: darkred;
+*#increment-btn {
+    background: #B41D5A;
+    box-shadow: gray 2px 2px;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: #52A322;
+    box-shadow: gray 2px 2px;
+}
+
+#increment-btn:hover,
+#increment-btn:focus {
+   background: #c65d87;  
+}
+
+#save-btn:hover,
+#save-btn:focus {
+    background: #8BB96F;
 }
