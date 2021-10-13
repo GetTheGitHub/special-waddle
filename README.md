@@ -1,5 +1,5 @@
 # special-waddle
-A basic counter app made with Javascript
+Restyling a basic counter app with an extra refresh button as part of [scrimba front-end course](https://scrimba.com)
 
 ## Feature
 Making basic calculations: increment, save and refresh while showing the results after each count
