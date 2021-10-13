@@ -1,8 +1,11 @@
 # special-waddle
-JavaScript study challenge: counter app
+A basic counter app made with Javascript
 
 ## Feature
-Basic calculation: increment and save
+Making basic calculations: increment, save and refresh while showing the results after each count
+
+![DEMO](https://user-images.githubusercontent.com/57369792/137103029-bf63381c-46e0-4282-bbdc-c0e12acd4144.png)
+### Try it yourself [here!](https://silly-wilson-bcf85c.netlify.app/)
 
 ### Learning Purpose
 - Manipulate HTML to generate Text with JavaScript
